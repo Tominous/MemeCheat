@@ -1,6 +1,6 @@
 package cc.ghast.memecheat.utils.chat;
 
-import cc.ghast.memecheat.impl.manager.ConfigManager;
+import cc.ghast.memecheat.managers.ConfigManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 

@@ -17,21 +17,27 @@ MEME ANTICHEAT VS HORTIZON ANTICHEAT
 [MEDIA=youtube]ZvQY0t8sD-8[/MEDIA]
 
 **## Images**
+
 [LEFT]**## Main Command:**
 ![https://i.imgur.com/xmDoVus.png](https://i.imgur.com/xmDoVus.png)
 
 **Verboses:**
+
 ![https://i.imgur.com/M3oqH49.png](https://i.imgur.com/M3oqH49.png)
 **
-Alerts:**
+**Alerts:**
+
 ![https://i.imgur.com/tXopy4V.png](https://i.imgur.com/tXopy4V.png)
 
 **Checks command:**
+
 ![https://i.imgur.com/fawiDf0.png](https://i.imgur.com/fawiDf0.png)
 
 **ForceCheckCommand:**
+
 ![https://i.imgur.com/oxxfh7v.png](https://i.imgur.com/oxxfh7v.png)[/LEFT]
 [CENTER][/CENTER]
+
 **## Commands**
     /Meme -> Main command (meme.admin)
     /meme verbose -> Show verboses (meme.admin)

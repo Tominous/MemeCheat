@@ -3,21 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0efdee8a-cfe3-4fa0-ae02-fb099cb8e4f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/MemeCheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/MemeCheat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/check/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/data/PlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/data/PlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/algorithm/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/algorithm/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/algorithm/PossibilityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/algorithm/PossibilityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/checks/combat/killaura/KillAuraA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/checks/combat/killaura/KillAuraA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/commands/MemeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/commands/MemeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/hook/NCPReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/hook/NCPReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/CheckManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/CheckManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/CommandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/PlayerDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/PlayerDataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/ProtocolManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/ProtocolManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/metrics/Metrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/metrics/Metrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/managers/ConfigManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/MemeCheat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
@@ -70,10 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/API.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/API.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="680">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1392#1393#0" expanded="true" />
@@ -182,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memcheat/api/command/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memcheat/api/manager/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memcheat/api/manager/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memcheat/impl/commands/MemeCommand.java" />
@@ -233,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers/ProtocolManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/API.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/MemeCheat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/API.java" />
       </list>
     </option>
   </component>
@@ -394,52 +381,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="memecheat" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemeCheat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemeCheat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memecheat" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemeCheat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemeCheat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memecheat" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemeCheat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemeCheat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memecheat" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemeCheat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemeCheat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="memecheat" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="location" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemeCheat" type="b2602c69:ProjectViewProjectNode" />
@@ -457,7 +399,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/impl/managers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JIAuth" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -538,14 +480,14 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-172">
           <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/gui/ItemBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/gui/ItemBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-748">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
@@ -597,7 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/gui/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="65" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="65" />
@@ -634,21 +576,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/MathUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/MathUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="196" column="5" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/chat/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/chat/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/chat/Chat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/chat/Chat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
@@ -669,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/utils/location/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/utils/location/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
@@ -893,7 +835,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/MemeCheat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
@@ -902,10 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/API.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/ghast/memecheat/api/API.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="680">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1392#1393#0" expanded="true" />

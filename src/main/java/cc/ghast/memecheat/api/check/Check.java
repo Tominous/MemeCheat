@@ -6,7 +6,7 @@ import cc.ghast.memecheat.api.data.PlayerData;
 import cc.ghast.memecheat.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.packet.events.PacketPositionLook;
 import cc.ghast.memecheat.api.packet.events.PacketUseEntity;
-import cc.ghast.memecheat.api.utils.chat.Chat;
+import cc.ghast.memecheat.utils.chat.Chat;
 import cc.ghast.memecheat.managers.ConfigManager;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

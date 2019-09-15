@@ -18,7 +18,8 @@ MEME ANTICHEAT VS HORTIZON ANTICHEAT
 
 **## Images**
 
-[LEFT]**## Main Command:**
+**## Main Command:**
+
 ![https://i.imgur.com/xmDoVus.png](https://i.imgur.com/xmDoVus.png)
 
 **Verboses:**

@@ -35,4 +35,8 @@ public class API {
         managers.addAll(Arrays.asList(playerDataManager, configManager, commandManager, protocolManager));
         managers.forEach(manager -> manager.init());
     }
+
+    public void disinitManagers(){
+        managers.forEach(manager -> manager.disinit());
+    }
 }

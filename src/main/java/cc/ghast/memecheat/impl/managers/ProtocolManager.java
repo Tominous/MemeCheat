@@ -10,7 +10,15 @@ import lombok.Getter;
 public class ProtocolManager extends Manager {
     @Getter private EventAdapterListener eventAdapterListener;
     public ProtocolManager(){
+
+    }
+
+    public void init(){
         ProtocolLibrary.getProtocolManager().addPacketListener(new PacketAdapterListener(memeCheat));
         eventAdapterListener = new EventAdapterListener(memeCheat);
+    }
+
+    public void disinit(){
+
     }
 }

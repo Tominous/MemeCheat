@@ -2,6 +2,7 @@ package cc.ghast.memecheat.impl.managers;
 
 import cc.ghast.memecheat.api.data.PlayerData;
 import cc.ghast.memecheat.api.manager.Manager;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
@@ -11,5 +12,13 @@ public class PlayerDataManager extends Manager {
 
     public PlayerData getData(Player player){
         return playerData.computeIfAbsent(player, PlayerData::new);
+    }
+
+    public void init(){
+        Bukkit.getOnlinePlayers().forEach(player -> playerData.computeIfAbsent(player, PlayerData::new));
+    }
+
+    public void disinit(){
+        playerData.clear();
     }
 }

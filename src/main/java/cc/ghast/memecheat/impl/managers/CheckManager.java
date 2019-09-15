@@ -22,4 +22,8 @@ public class CheckManager extends Manager {
                 new KillAuraA()
         ));
     }
+
+    public void disinit(){
+        checks.clear();
+    }
 }

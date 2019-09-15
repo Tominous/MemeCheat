@@ -12,4 +12,8 @@ public class MemeCheat extends JavaPlugin {
         instance = this;
         api = new API();
     }
+
+    public void onDisable(){
+        api.disinitManagers();
+    }
 }

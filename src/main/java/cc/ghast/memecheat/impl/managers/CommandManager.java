@@ -8,4 +8,8 @@ public class CommandManager extends Manager {
     public void init(){
         new MemeCommand(memeCheat);
     }
+
+    public void disinit(){
+
+    }
 }

@@ -2,7 +2,6 @@ package cc.ghast.memecheat.impl.commands;
 
 import cc.ghast.memecheat.MemeCheat;
 import cc.ghast.memecheat.impl.algorithm.Evaluator;
-import cc.ghast.memecheat.impl.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.data.PlayerData;
 import cc.ghast.memecheat.impl.manager.ConfigManager;
 import cc.ghast.memecheat.api.utils.chat.Chat;

@@ -1,10 +1,10 @@
 package cc.ghast.memecheat.impl.commands;
 
 import cc.ghast.memecheat.MemeCheat;
-import cc.ghast.memecheat.api.algorithm.Evaluator;
-import cc.ghast.memecheat.api.algorithm.PossibilityEnum;
+import cc.ghast.memecheat.impl.algorithm.Evaluator;
+import cc.ghast.memecheat.impl.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.data.PlayerData;
-import cc.ghast.memecheat.api.manager.ConfigManager;
+import cc.ghast.memecheat.impl.manager.ConfigManager;
 import cc.ghast.memecheat.api.utils.chat.Chat;
 import cc.ghast.memecheat.api.utils.chat.StringUtil;
 import org.bukkit.Bukkit;
@@ -42,6 +42,11 @@ public class MemeCommand implements CommandExecutor {
                         data.getCheckManager().getChecks().forEach(check->{
                             player.sendMessage(Chat.translate("&7&l-> &a" + check.getName() + " &7(&a" + check.getVar() + "&7) [&a" + check.getType().name() + "&7]"));
                         });
+                        return true;
+                    }
+                    case "bypass": {
+                        data.staff.setBypassing(!data.staff.isBypassing());
+                        player.sendMessage(Chat.translate(ConfigManager.getSettings().getString("general.prefix") + (data.staff.isBypassing() ? " &aENABLED&7 bypass for &ayourself" : " &aDISABLED&7 bypass for &ayourself")));
                         return true;
                     }
                     default: {

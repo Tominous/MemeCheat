@@ -1,10 +1,10 @@
 package cc.ghast.memecheat.api.check;
 
 import cc.ghast.memecheat.MemeCheat;
-import cc.ghast.memecheat.api.algorithm.Evaluator;
-import cc.ghast.memecheat.api.algorithm.PossibilityEnum;
+import cc.ghast.memecheat.impl.algorithm.Evaluator;
+import cc.ghast.memecheat.impl.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.data.PlayerData;
-import cc.ghast.memecheat.api.manager.ConfigManager;
+import cc.ghast.memecheat.impl.manager.ConfigManager;
 import cc.ghast.memecheat.api.packet.events.PacketPositionLook;
 import cc.ghast.memecheat.api.packet.events.PacketUseEntity;
 import cc.ghast.memecheat.api.utils.chat.Chat;
@@ -12,7 +12,6 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerMoveEvent;
 
 @RequiredArgsConstructor
@@ -39,7 +38,7 @@ public abstract class Check {
             PlayerData targetData = memeCheat.getApi().getPlayerDataManager().getData(player);
             if (player.hasPermission("meme.alert") && targetData.staff.isVerboseAlertable()){
                 String msg = Chat.translate(ConfigManager.getSettings().getString("general.prefix") + " " + ConfigManager.getSettings().getString("message.verbose")
-                        .replace("%player%", player.getName())
+                        .replace("%player%", data.getPlayer().getName())
                         .replace("%check%", name)
                         .replace("%violation%", Integer.toString(data.getVerboses(this)))
                         .replace("%type%", var)

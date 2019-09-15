@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.api.algorithm;
+package cc.ghast.memecheat.impl.algorithm;
 
 import cc.ghast.memecheat.api.check.Check;
 import cc.ghast.memecheat.api.data.PlayerData;

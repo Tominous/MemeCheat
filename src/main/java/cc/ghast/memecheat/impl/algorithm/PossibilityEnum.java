@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.api.algorithm;
+package cc.ghast.memecheat.impl.algorithm;
 
 public enum PossibilityEnum {
     BLATANT(100, 5, 100),

@@ -1,7 +1,7 @@
 package cc.ghast.memecheat.api.data;
 
 import cc.ghast.memecheat.api.check.Check;
-import cc.ghast.memecheat.api.manager.CheckManager;
+import cc.ghast.memecheat.impl.manager.CheckManager;
 import cc.ghast.memecheat.api.utils.location.Position;
 import lombok.Getter;
 import lombok.NonNull;
@@ -43,6 +43,7 @@ public class PlayerData {
     public class Staff {
         @Getter @Setter private boolean isVerboseAlertable;
         @Getter @Setter private boolean isVLAlertable;
+        @Getter @Setter private boolean isBypassing;
     }
 
     public void addViolation(Check check){
@@ -60,6 +61,7 @@ public class PlayerData {
     }
 
     public void addVerbose(Check check){
+        if (staff.isBypassing()) return;
         if (verboses.size() >= 1){
             verboses.forEach(item->{
                 if (item.getCheck().equals(check)){

@@ -1,13 +1,13 @@
 package cc.ghast.memecheat.api.check;
 
 import cc.ghast.memecheat.MemeCheat;
-import cc.ghast.memecheat.impl.algorithm.Evaluator;
+import cc.ghast.memecheat.algorithm.Evaluator;
 import cc.ghast.memecheat.api.data.PlayerData;
-import cc.ghast.memecheat.impl.algorithm.PossibilityEnum;
+import cc.ghast.memecheat.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.packet.events.PacketPositionLook;
 import cc.ghast.memecheat.api.packet.events.PacketUseEntity;
 import cc.ghast.memecheat.api.utils.chat.Chat;
-import cc.ghast.memecheat.impl.managers.ConfigManager;
+import cc.ghast.memecheat.managers.ConfigManager;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

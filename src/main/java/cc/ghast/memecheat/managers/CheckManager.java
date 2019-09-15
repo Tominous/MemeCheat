@@ -1,8 +1,8 @@
-package cc.ghast.memecheat.impl.managers;
+package cc.ghast.memecheat.managers;
 
 import cc.ghast.memecheat.api.check.Check;
 import cc.ghast.memecheat.api.manager.Manager;
-import cc.ghast.memecheat.impl.checks.combat.killaura.KillAuraA;
+import cc.ghast.memecheat.checks.combat.killaura.KillAuraA;
 import lombok.Getter;
 
 import java.util.ArrayList;

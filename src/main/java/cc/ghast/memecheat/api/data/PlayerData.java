@@ -2,7 +2,7 @@ package cc.ghast.memecheat.api.data;
 
 import cc.ghast.memecheat.api.check.Check;
 import cc.ghast.memecheat.api.utils.location.Position;
-import cc.ghast.memecheat.impl.managers.CheckManager;
+import cc.ghast.memecheat.managers.CheckManager;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;

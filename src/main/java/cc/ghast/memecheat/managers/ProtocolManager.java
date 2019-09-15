@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.impl.managers;
+package cc.ghast.memecheat.managers;
 
 
 import cc.ghast.memecheat.api.manager.Manager;

@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.impl.metrics;
+package cc.ghast.memecheat.metrics;
 
 
 import com.google.gson.JsonArray;

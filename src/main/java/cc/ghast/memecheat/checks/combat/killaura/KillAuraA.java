@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.impl.checks.combat.killaura;
+package cc.ghast.memecheat.checks.combat.killaura;
 
 import cc.ghast.memecheat.api.check.Check;
 import cc.ghast.memecheat.api.check.CheckType;

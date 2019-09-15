@@ -1,6 +1,5 @@
 package cc.ghast.memecheat;
 
-import cc.ghast.memecheat.impl.API;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 

@@ -1,12 +1,12 @@
-package cc.ghast.memecheat.impl;
+package cc.ghast.memecheat;
 
 import cc.ghast.memecheat.MemeCheat;
 import cc.ghast.memecheat.api.manager.Manager;
-import cc.ghast.memecheat.impl.managers.CommandManager;
-import cc.ghast.memecheat.impl.managers.ConfigManager;
-import cc.ghast.memecheat.impl.managers.PlayerDataManager;
-import cc.ghast.memecheat.impl.managers.ProtocolManager;
-import cc.ghast.memecheat.impl.metrics.Metrics;
+import cc.ghast.memecheat.managers.CommandManager;
+import cc.ghast.memecheat.managers.ConfigManager;
+import cc.ghast.memecheat.managers.PlayerDataManager;
+import cc.ghast.memecheat.managers.ProtocolManager;
+import cc.ghast.memecheat.metrics.Metrics;
 
 import lombok.Getter;
 import java.util.ArrayList;

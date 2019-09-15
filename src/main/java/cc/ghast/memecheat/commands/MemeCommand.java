@@ -1,12 +1,12 @@
-package cc.ghast.memecheat.impl.commands;
+package cc.ghast.memecheat.commands;
 
 import cc.ghast.memecheat.MemeCheat;
-import cc.ghast.memecheat.impl.algorithm.Evaluator;
+import cc.ghast.memecheat.algorithm.Evaluator;
 import cc.ghast.memecheat.api.data.PlayerData;
-import cc.ghast.memecheat.impl.algorithm.PossibilityEnum;
+import cc.ghast.memecheat.algorithm.PossibilityEnum;
 import cc.ghast.memecheat.api.utils.chat.Chat;
 import cc.ghast.memecheat.api.utils.chat.StringUtil;
-import cc.ghast.memecheat.impl.managers.ConfigManager;
+import cc.ghast.memecheat.managers.ConfigManager;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

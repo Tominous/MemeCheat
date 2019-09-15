@@ -1,0 +1,8 @@
+main: cc.ghast.memecheat.MemeCheat
+author: Ghast
+description: 'A little practice anticheat'
+name: MemeAC
+version: 0.1-DEV
+commands:
+  meme:
+    description: 'Open the main lock GUI to find all aliases'

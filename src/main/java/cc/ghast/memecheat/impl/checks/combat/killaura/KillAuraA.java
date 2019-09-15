@@ -34,7 +34,7 @@ public class KillAuraA extends Check {
             r.add(e);
             if (++mo > 20){
                 if (MathUtil.averageFloat(r) > 11) {
-                    verbose(g, "Experimental");
+                    log(g, "Experimental");
                 } else {
                     r.clear();
                     mo = 0;

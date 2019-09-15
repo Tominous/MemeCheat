@@ -1,9 +1,10 @@
-package cc.ghast.memecheat.impl.manager;
+package cc.ghast.memecheat.impl.managers;
 
+import cc.ghast.memecheat.api.manager.Manager;
 import cc.ghast.memecheat.api.utils.configuration.Configuration;
 import lombok.Getter;
 
-public class ConfigManager extends Manager{
+public class ConfigManager extends Manager {
     @Getter
     private static Configuration settings;
 

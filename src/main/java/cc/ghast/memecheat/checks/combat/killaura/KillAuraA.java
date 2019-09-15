@@ -3,7 +3,7 @@ package cc.ghast.memecheat.checks.combat.killaura;
 import cc.ghast.memecheat.api.check.Check;
 import cc.ghast.memecheat.api.check.CheckType;
 import cc.ghast.memecheat.api.data.PlayerData;
-import cc.ghast.memecheat.api.utils.MathUtil;
+import cc.ghast.memecheat.utils.MathUtil;
 import org.bukkit.Location;
 import org.bukkit.event.player.PlayerMoveEvent;
 

@@ -1,6 +1,6 @@
-package cc.ghast.memecheat.api.utils.gui;
+package cc.ghast.memecheat.utils.gui;
 
-import cc.ghast.memecheat.api.utils.chat.Chat;
+import cc.ghast.memecheat.utils.chat.Chat;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;

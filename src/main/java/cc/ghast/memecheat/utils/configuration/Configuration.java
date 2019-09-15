@@ -1,6 +1,6 @@
-package cc.ghast.memecheat.api.utils.configuration;
+package cc.ghast.memecheat.utils.configuration;
 
-import cc.ghast.memecheat.api.utils.chat.Chat;
+import cc.ghast.memecheat.utils.chat.Chat;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

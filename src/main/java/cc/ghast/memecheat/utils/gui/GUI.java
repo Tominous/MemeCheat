@@ -1,7 +1,7 @@
-package cc.ghast.memecheat.api.utils.gui;
+package cc.ghast.memecheat.utils.gui;
 
-import cc.ghast.memecheat.api.utils.chat.Chat;
-import cc.ghast.memecheat.api.utils.chat.StringUtil;
+import cc.ghast.memecheat.utils.chat.Chat;
+import cc.ghast.memecheat.utils.chat.StringUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;

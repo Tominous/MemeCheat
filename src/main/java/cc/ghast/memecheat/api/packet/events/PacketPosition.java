@@ -1,6 +1,6 @@
 package cc.ghast.memecheat.api.packet.events;
 
-import cc.ghast.memecheat.api.utils.location.Position;
+import cc.ghast.memecheat.utils.location.Position;
 import lombok.Getter;
 import org.bukkit.entity.Player;
 

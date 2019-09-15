@@ -1,6 +1,5 @@
-package cc.ghast.memecheat.api.utils.location;
+package cc.ghast.memecheat.utils.location;
 
-import cc.ghast.memecheat.api.data.PlayerData;
 import lombok.Getter;
 import org.bukkit.Location;
 import org.bukkit.World;

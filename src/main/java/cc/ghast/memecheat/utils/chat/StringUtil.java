@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.api.utils.chat;
+package cc.ghast.memecheat.utils.chat;
 
 import org.bukkit.ChatColor;
 

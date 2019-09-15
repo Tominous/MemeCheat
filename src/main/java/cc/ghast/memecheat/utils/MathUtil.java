@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.api.utils;
+package cc.ghast.memecheat.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

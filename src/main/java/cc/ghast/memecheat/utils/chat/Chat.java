@@ -1,4 +1,4 @@
-package cc.ghast.memecheat.api.utils.chat;
+package cc.ghast.memecheat.utils.chat;
 
 import cc.ghast.memecheat.impl.manager.ConfigManager;
 import org.bukkit.Bukkit;

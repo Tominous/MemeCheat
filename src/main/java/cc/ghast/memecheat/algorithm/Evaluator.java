@@ -63,7 +63,7 @@ public class Evaluator {
 
         PossibilityEnum highestPossibility = PossibilityEnum.NOT;
         for (PossibilityEnum value : PossibilityEnum.values()) {
-            if (value.falsePossibility > falsePossibility && value.falsePossibility < highestPossibility.falsePossibility){
+            if (value.falsePossibility < falsePossibility && value.falsePossibility < highestPossibility.falsePossibility){
                 highestPossibility = value;
             }
         }

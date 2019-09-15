@@ -1,14 +1,14 @@
-[CENTER][IMG]https://imgur.com/JQzgmTk.png[/IMG]
-[/CENTER]
+![https://imgur.com/JQzgmTk.png](https://imgur.com/JQzgmTk.png)
+
 What is Meme Anticheat you may ask? Well it's simple: We're a combat based anticheat which offers a free solution, alternative to JI Anticheat or Artemis, to contribute to the community. We don't provide a full-on system as that would defeat the purpose, however we do offer a reliable solution to use as an alternative.
 
-[B][SIZE=6][COLOR=#00b300][U]Detections[/U][/COLOR][/SIZE][/B]
+**## Detections**
 
 We currently offer detections for the following cheats:
 [SPOILER="KillAura"]
-[LIST]
-[*]KillAura (Type A)
-[/LIST]
+
+* KillAura (Type A)
+
 [/SPOILER]
 
 [MEDIA=youtube]ExeiwbhtBfE[/MEDIA]
@@ -16,31 +16,31 @@ We currently offer detections for the following cheats:
 MEME ANTICHEAT VS HORTIZON ANTICHEAT
 [MEDIA=youtube]ZvQY0t8sD-8[/MEDIA]
 
-[B][SIZE=6][COLOR=#00b300][U]Images[/U][/COLOR][/SIZE][/B]
-[LEFT][B][SIZE=4]Main Command:[/SIZE][/B]
-[IMG]https://i.imgur.com/xmDoVus.png[/IMG]
+**## Images**
+[LEFT]**## Main Command:**
+![https://i.imgur.com/xmDoVus.png](https://i.imgur.com/xmDoVus.png)
 
-[B]Verboses:[/B]
-[IMG]https://i.imgur.com/M3oqH49.png[/IMG]
-[B]
-Alerts:[/B]
-[IMG]https://i.imgur.com/tXopy4V.png[/IMG]
+**Verboses:**
+![https://i.imgur.com/M3oqH49.png](https://i.imgur.com/M3oqH49.png)
+**
+Alerts:**
+![https://i.imgur.com/tXopy4V.png](https://i.imgur.com/tXopy4V.png)
 
-[B]Checks command:[/B]
-[IMG]https://i.imgur.com/fawiDf0.png[/IMG]
+**Checks command:**
+![https://i.imgur.com/fawiDf0.png](https://i.imgur.com/fawiDf0.png)
 
-[B]ForceCheckCommand:[/B]
-[IMG]https://i.imgur.com/oxxfh7v.png[/IMG][/LEFT]
+**ForceCheckCommand:**
+![https://i.imgur.com/oxxfh7v.png](https://i.imgur.com/oxxfh7v.png)[/LEFT]
 [CENTER][/CENTER]
-[B][SIZE=6][COLOR=#00b300][U]Commands[/U][/COLOR][/SIZE][/B]
-[code]/Meme -> Main command (meme.admin)
-/meme verbose -> Show verboses (meme.admin)
-/meme alerts -> Show alerts (meme.admin)
-/meme checks -> Show all checks (meme.admin)
-/meme forcecheck <user> -> Forcecheck a user (meme.admin)[/code]
+**## Commands**
+    /Meme -> Main command (meme.admin)
+    /meme verbose -> Show verboses (meme.admin)
+    /meme alerts -> Show alerts (meme.admin)
+    /meme checks -> Show all checks (meme.admin)
+    /meme forcecheck <user> -> Forcecheck a user (meme.admin)
 
-[B][SIZE=6][COLOR=#00b300][U]Requirements[/U][/COLOR][/SIZE][/B]
+**## Requirements**
 ProtocolLib: [URL]https://www.spigotmc.org/resources/protocollib.1997/[/URL]
 
-[B][SIZE=6][COLOR=#00b300][U]Support[/U][/COLOR][/SIZE][/B]
-[URL='https://discord.gg/AB3N8mP'][IMG]https://icon-library.net/images/discord-icon-transparent/discord-icon-transparent-2.jpg[/IMG] [/URL]
+**## Support**
+[![https://icon-library.net/images/discord-icon-transparent/discord-icon-transparent-2.jpg](https://icon-library.net/images/discord-icon-transparent/discord-icon-transparent-2.jpg) ]('https://discord.gg/AB3N8mP')

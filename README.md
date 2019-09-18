@@ -16,7 +16,9 @@ We currently offer detections for the following cheats:
 MEME ANTICHEAT VS HORTIZON ANTICHEAT
 [MEDIA=youtube]ZvQY0t8sD-8[/MEDIA]
 
+
 **## Images**
+
 
 **## Main Command:**
 
@@ -25,7 +27,7 @@ MEME ANTICHEAT VS HORTIZON ANTICHEAT
 **Verboses:**
 
 ![https://i.imgur.com/M3oqH49.png](https://i.imgur.com/M3oqH49.png)
-**
+
 **Alerts:**
 
 ![https://i.imgur.com/tXopy4V.png](https://i.imgur.com/tXopy4V.png)
@@ -36,8 +38,7 @@ MEME ANTICHEAT VS HORTIZON ANTICHEAT
 
 **ForceCheckCommand:**
 
-![https://i.imgur.com/oxxfh7v.png](https://i.imgur.com/oxxfh7v.png)[/LEFT]
-[CENTER][/CENTER]
+![https://i.imgur.com/oxxfh7v.png](https://i.imgur.com/oxxfh7v.png)
 
 **## Commands**
     /Meme -> Main command (meme.admin)
